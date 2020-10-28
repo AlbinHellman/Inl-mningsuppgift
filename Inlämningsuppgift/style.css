@@ -1,14 +1,12 @@
-li {
-  display:block;
+ li{
+  display:inline-block;
+}
+
+ul{
+  display:inline-block;
 }
 
 
 
-@media all and (min-width: 768px) {
-  }
-  
-  @media all and (min-width: 992px) {
-  }
-  
-  @media all and (min-width: 1200px) {
-  }
+
+
