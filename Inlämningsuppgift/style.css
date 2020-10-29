@@ -10,6 +10,7 @@ html, body {
   font-size:16px;
   margin: 0;
   padding: 0;
+  color: #626262;
 }
 
 .border {
@@ -39,6 +40,11 @@ a:hover {
 .bg-light {
   background: #f7f7f7;
   color: #333333;
+}
+
+.bg-gray {
+  background: #dedede;
+  
 }
 
 .collapse:not(.show) {
