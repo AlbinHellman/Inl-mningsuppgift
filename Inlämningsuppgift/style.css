@@ -4,7 +4,6 @@
 
 ul{
   display:inline-block;
-  padding-right: px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -21,14 +20,23 @@ img {
 h2 {
   
   margin-bottom: 150px;
-  padding-right: 200px;
+  padding-left: 150px;
+  
+  
+}
+
+p {
+  margin-top: 100px;
+  padding-right: 600px;
 }
 
 body {
   background: url("grey-picture.png");
   background-repeat:no-repeat;
-  background-position: center center;
-  background-size: 90%;
+  background-position: center;
+  background-size: 120%;
+  background-position-y:320px;
+
 }
 
 li {
