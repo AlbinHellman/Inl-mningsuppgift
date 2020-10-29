@@ -4,19 +4,51 @@
 
 ul{
   display:inline-block;
-  padding-right: 100px;
+  padding-right: px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 img {
   padding-top:30px;
+  padding-right:px;
   
  
 }
 
-h1 {
-  padding-top: 9px;
-  padding-right: 100px;
+h2 {
+  
+  padding-bottom: 30px;
+  padding-right: 800px;
 }
+
+body {
+  background: url("grey-picture.png");
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size: 110%;
+}
+
+li {
+  padding-right: 15px;
+  display: 
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  p {}
+
+
+
+  
+
+
+
+
 
 
 
