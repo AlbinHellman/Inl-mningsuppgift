@@ -11,8 +11,9 @@ ul{
 }
 
 img {
-  padding-top:30px;
-  padding-inline-end: 50px;
+  padding-top:50px;
+  padding-left:10px;
+  
   
  
 }
@@ -27,7 +28,7 @@ body {
   background: url("grey-picture.png");
   background-repeat:no-repeat;
   background-position: center center;
-  background-size: 110%;
+  background-size: 90%;
 }
 
 li {
