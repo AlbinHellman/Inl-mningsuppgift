@@ -19,7 +19,7 @@ html, body {
 
 
 a {
-  color: #2baaec;
+  color: #333333;
   text-decoration: none;
   background-color: transparent;
 }
@@ -45,6 +45,30 @@ a:hover {
 .bg-gray {
   background: #dedede;
   
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.75rem 2.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  background-color: transparent;
+  font-size: 1rem;
+
+}
+
+.btn-greenish {
+color: #fff;
+background-color: #25e6c8;
+font-weight: bold;
+}
+
+.btn-greenish:hover {
+  cursor: pointer;
+  background-color: #2baaec;
 }
 
 .collapse:not(.show) {
@@ -128,6 +152,35 @@ width: 100%;
     text-decoration: none;
   }
 
+  #showcase .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+
+
+  }
+
+  #showcase .container img {
+    height: 500px;
+    margin-top: 1rem;
+  }
+
+  #showcase .container .content-box {
+    align-self: center;
+    color: #363636;
+    font-weight: 300;
+  }
+
+  .content-box .content h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.8rem;
+    font-weight: 300;
+    line-height: 1.1;
+  }
+
+  .content-box .content p {
+    font-size: 0.9rem;
+  }
 
 
 
