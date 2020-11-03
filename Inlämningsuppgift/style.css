@@ -191,6 +191,11 @@ width: 100%;
 
 
 @media (min-width: 768px) {
+  .nav-link {
+    padding: 0.5rem;
+    margin: 0.5rem;
+  }
+  
   .container {
     max-width: 720px;
   }
