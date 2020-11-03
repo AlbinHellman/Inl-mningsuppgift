@@ -1,7 +1,11 @@
 * {
   box-sizing: border-box;
+  padding:0px;
+  margin:0px;
+  
+  }
 
-}
+
 
 html, body {
   font-weight: 400;
@@ -234,12 +238,7 @@ width: 100%;
   }
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 
-}
 
 #box-1 { background: white; }
 
@@ -252,8 +251,18 @@ width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
-
+  background-color: #F7F7F7;
 }
+.content-box2 .content2 h1 {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.1;
+}
+
+
+
 
 .d-flex {
   display: flex;
@@ -273,12 +282,15 @@ width: 100%;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
   color: #ffffff;
+  
     
 }
 .btn-primary {
   color: #2BAAEC;
   background-color: #fffFFF;
   font-weight: bold;
+ 
+    
 }
 .btn-primary:hover {
   cursor: pointer;
@@ -291,6 +303,8 @@ footer {
   color: #F3FBFF;
   text-align: center;
   padding: 1rem 0rem;
-  font-family: 'Roboto', sans-serif
+  font-family: 'Roboto', sans-serif;
+  
 }
+
 
