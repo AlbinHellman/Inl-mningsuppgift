@@ -271,6 +271,18 @@ width: 100%;
 #appointment {
   background-color: #dedede;
   font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  color: #ffffff;
+    
+}
+.btn-primary {
+  color: #2BAAEC;
+  background-color: #fffFFF;
+  font-weight: bold;
+}
+.btn-primary:hover {
+  cursor: pointer;
+  background-color: #25E6C8;
 }
 
 footer {
