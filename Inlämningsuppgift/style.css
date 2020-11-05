@@ -351,5 +351,18 @@ footer {
   font-family: 'Roboto', sans-serif;
   
 }
+#box-33 { background: white; }
+
+.box {
+    padding: 1rem;
+}
+
+.grid33 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 1rem;
+
+
+}
 
 
