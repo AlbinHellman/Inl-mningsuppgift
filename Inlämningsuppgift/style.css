@@ -208,6 +208,12 @@ width: 100%;
     justify-content: space-between;
     padding: 4rem 0;
   }
+  .grid button:hover {
+    
+  background-color: white;
+  cursor: pointer;
+  
+  }
   }
   .navbar-nav {
     flex-direction: row;
@@ -250,7 +256,7 @@ width: 100%;
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
+  gap: 1.5rem;
   background-color: #F7F7F7;
 }
 .content-box2 .content2 h1 {
@@ -264,20 +270,21 @@ width: 100%;
     padding-top:10rem;
     
 }
-   .content-box2 .content2 svg {
    
-    }
 
     .grid {
       padding-right: 10rem;
       padding-left: 10rem;
-      padding-top: 3rem;
+      padding-top: 5rem;
       padding-bottom: 8rem;
+      
     }
 
     .grid button {
       padding: 2rem;
+      
     }
+    
 
 .grid h1 {
   text-align: center;
@@ -292,11 +299,13 @@ width: 100%;
 
 .grid p {
   text-align: center;
-  font-weight: 150;
   font-size: 0.9rem;
   color: #626262;
-  
+  justify-content: space-between;
   font-family: 'Roboto', serif;
+  font-weight: 350;
+  padding: 1.5rem;
+  
 }
 
 
