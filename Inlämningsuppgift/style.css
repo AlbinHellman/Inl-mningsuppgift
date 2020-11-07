@@ -295,6 +295,7 @@ width: 100%;
   
   
   
+  
 
 
 
@@ -323,11 +324,18 @@ grid-template-areas: "h h h a a"
 }
 #heej p{
   padding-top: 3rem;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  color: #626262;
 
 }
 
 #hej p{
   padding-top: 2rem;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  color: #626262;
+  
 
 }
 #box-4 h1 {
@@ -336,6 +344,7 @@ grid-template-areas: "h h h a a"
   font-family: 'Roboto Slab', serif;
   font-weight: 98;
     line-height: 53px;
+  
 }
 
 #box-5 h1 {
@@ -344,6 +353,7 @@ grid-template-areas: "h h h a a"
   font-family: 'Roboto Slab', serif;
   font-weight: 98;
     line-height: 53px;
+    
 }
 
 #box-6 h1 {
@@ -352,6 +362,7 @@ grid-template-areas: "h h h a a"
   font-family: 'Roboto Slab', serif;
   font-weight: 98;
     line-height: 53px;
+    
 }
 
 #box-4 p {
@@ -361,6 +372,7 @@ grid-template-areas: "h h h a a"
     line-height: 24px;
     color:#363636;
     text-align: left;
+    
 }
 
 #box-5 p {
@@ -370,6 +382,7 @@ grid-template-areas: "h h h a a"
     line-height: 24px;
     color:#363636;
     text-align: left;
+    
 }
 
 #box-6 p {
@@ -379,6 +392,7 @@ grid-template-areas: "h h h a a"
     line-height: 24px;
     color:#363636;
     text-align: left;
+    
 }
 #box-1 {
 grid-area: h;
