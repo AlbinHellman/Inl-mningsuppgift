@@ -28,15 +28,9 @@ a {
   background-color: transparent;
 }
 
-a i {
-  color: #2BAAEC;
-  padding-right: 15px;
-}
 
-a i:hover {
-  color:#25e6c8;
 
-}
+
 
 a:hover {
   color: #25e6c8;
@@ -47,6 +41,17 @@ a:hover {
 .bg-dark {
   background: #333333;
   color: #ffffff;
+
+}
+a i {
+  color: #2BAAEC;
+  padding-right: 15px;
+  
+  
+}
+
+a i:hover {
+  color:#25e6c8;
 
 }
 
@@ -128,7 +133,7 @@ width: 100%;
   font-size: 1.2rem;
 }
 
-.navbar-top .container .socialmedia {
+.navbar-top .container .socialmedia a {
   margin: 0 0.5rem;
 }
 
@@ -213,10 +218,9 @@ width: 100%;
   margin-bottom: -6px;
  }
 
+ @media (max-width: 375px) {
 
-
-
-
+ }
 
 
 
@@ -226,7 +230,17 @@ width: 100%;
     padding: 0.5rem;
     margin: 0.5rem;
   }
+  a {
+    color: #333333;
+    text-decoration: none;
+    background-color: transparent;
+  }
+
   
+  .content-box2 .content2 h1 {
+    text-align: center;
+    
+  }
   .container {
     max-width: 720px;
   }
@@ -235,12 +249,103 @@ width: 100%;
     justify-content: space-between;
     padding: 4rem 0;
   }
+  .grid33 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding-left: 10rem;
+    padding-right:10rem;
+    padding-top: 4rem;
+    margin-bottom:-1.35rem;
+    
+    
+    
+    
+    
+  
+  
+  
+  grid-template-areas: "h h h a a"
+                      "f b i a a"
+                      
+                     
+  }  
   .grid button:hover {
     
   background-color: white;
   cursor: pointer;
+
   
   }
+  .d-flex {
+    display: flex;
+  }
+  
+  .justify-content-center {
+    justify-content: center;
+  }
+  
+  #box-1 {
+    grid-area: h;
+    }
+    
+    
+    
+    #box-3 {
+      grid-area: a;
+    }
+    
+    #box-4 {
+      grid-area: f;
+    }
+    
+    #box-5 {
+      grid-area: b;
+    }
+    
+    #box-6 {
+      grid-area: i;
+    }
+    
+    .grid {
+      padding-right: 10rem;
+      padding-left: 10rem;
+      padding-top: 5rem;
+      padding-bottom: 8rem;
+      
+    }
+    
+    .grid button {
+      padding: 2rem;
+      
+    }
+    
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 1.5rem;
+      background-color: #F7F7F7;
+    }
+
+    #appointment {
+      background-color: #dedede;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.5rem;
+      color: #ffffff;
+    }
+    footer {
+      border-top: 1px solid rgba(255, 255, 255, 0.6);
+      background-color: #2BAAEC;
+      color: #F3FBFF;
+      text-align: center;
+      padding: 1rem 0rem;
+      font-family: 'Roboto', sans-serif;
+      
+    }
+  
+    
+  
+ 
   }
   .navbar-nav {
     flex-direction: row;
@@ -280,14 +385,8 @@ width: 100%;
   padding: 1rem;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1.5rem;
-  background-color: #F7F7F7;
-}
+
 .content-box2 .content2 h1 {
-  text-align: center;
   font-family: 'Roboto Slab', serif;
   color: #363636;
     font-weight: 300;
@@ -295,6 +394,9 @@ width: 100%;
     font-size: 2.8rem;
     background-color: #F7F7F7;
     padding-top:10rem;
+    text-align:center;
+    
+    
     
 }
    
@@ -311,26 +413,7 @@ width: 100%;
     padding: 1rem;
 }
 
-.grid33 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
-  padding-left: 10rem;
-  padding-right:10rem;
-  padding-top: 4rem;
-  margin-bottom:-1.35rem;
-  
-  
-  
-  
-  
 
-
-
-grid-template-areas: "h h h a a"
-                    "f b i a a"
-                   
-}  
 
 #box-1 h1{
   font-family: 'Roboto Slab', serif;
@@ -422,40 +505,7 @@ grid-template-areas: "h h h a a"
     text-align: left;
     
 }
-#box-1 {
-grid-area: h;
-}
 
-
-
-#box-3 {
-  grid-area: a;
-}
-
-#box-4 {
-  grid-area: f;
-}
-
-#box-5 {
-  grid-area: b;
-}
-
-#box-6 {
-  grid-area: i;
-}
-
-.grid {
-  padding-right: 10rem;
-  padding-left: 10rem;
-  padding-top: 5rem;
-  padding-bottom: 8rem;
-  
-}
-
-.grid button {
-  padding: 2rem;
-  
-}
 
 
 #box-1 h2 {
@@ -469,6 +519,27 @@ margin-bottom:1rem;
 margin-top:1rem;
 }
 
+.grid {
+  text-align:center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  
+}
+
+.grid button {
+  padding: 2rem;
+  
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+  background-color: #F7F7F7;
+}
+
+
 .grid p {
 text-align: center;
 font-size: 0.9rem;
@@ -479,13 +550,6 @@ font-weight: 350;
 padding: 1.5rem;
 }
 
-.d-flex {
-  display: flex;
-}
-
-.justify-content-center {
-  justify-content: center;
-}
 
 .overlay {
   opacity: 80%;
@@ -494,12 +558,12 @@ padding: 1.5rem;
 
 
 
-
 #appointment {
   background-color: #dedede;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
   color: #ffffff;
+  text-align:center;
 
 
   
@@ -510,6 +574,7 @@ padding: 1.5rem;
   color: #2BAAEC;
   background-color: #fffFFF;
   font-weight: bold;
+  
  
     
 }
@@ -518,11 +583,15 @@ padding: 1.5rem;
   background-color: #25E6C8;
 }
 
+.appointment {
+text-align: center;
+}
+
 footer {
   border-top: 1px solid rgba(255, 255, 255, 0.6);
   background-color: #2BAAEC;
   color: #F3FBFF;
-  text-align: center;
+  text-align:center;
   padding: 1rem 0rem;
   font-family: 'Roboto', sans-serif;
   
