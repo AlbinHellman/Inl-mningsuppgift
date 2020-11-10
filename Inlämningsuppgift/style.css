@@ -307,13 +307,7 @@ width: 100%;
       grid-area: i;
     }
     
-    .grid {
-      padding-right: 10rem;
-      padding-left: 10rem;
-      padding-top: 5rem;
-      padding-bottom: 8rem;
-      
-    }
+    
     
     .grid button {
       padding: 2rem;
@@ -325,6 +319,11 @@ width: 100%;
       grid-template-columns: 1fr 1fr 1fr;
       gap: 1.5rem;
       background-color: #F7F7F7;
+      padding-right: 10rem;
+      padding-left: 10rem;
+      padding-top: 5rem;
+      padding-bottom: 8rem;
+      
     }
 
     #appointment {
@@ -519,14 +518,7 @@ margin-bottom:1rem;
 margin-top:1rem;
 }
 
-.grid {
-  text-align:center;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  
-}
+
 
 .grid button {
   padding: 2rem;
@@ -535,8 +527,8 @@ margin-top:1rem;
 
 .grid {
   display: grid;
-  gap: 1.5rem;
-  background-color: #F7F7F7;
+      gap: 1.5rem;
+      background-color: #F7F7F7;
 }
 
 
